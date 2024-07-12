@@ -81,7 +81,7 @@ blogs
 ```
 
 #### 后端说明
-- 服务器端使用nodejs的**express**框架，提供API接口，能实现前后端分离。核心文件在`server`文件夹中:heavy_exclamation_mark:。
+- 服务器端使用nodejs的**express**框架，提供API接口，能实现前后端分离。核心文件在`server`文件夹中 :heavy_exclamation_mark:。
 - 核心代码在`server`文件夹中的`server.js`文件中，设置了包括用户登录、注册、博文的增删改查、管理员对用户的增删查改等功能的接口。其每个功能的具体文件系统操作实现在`server`文件夹中的其他文件中，供`server.js`做函数调用，每个文件的功能说明在代码结构中已展示。 
 - 在启动vue项目之前，要先启动node服务器，服务器在3000端口：http://localhost:3000/{api_name}。
 - 启动node服务器后会在根目录下的`data`:heavy_exclamation_mark:文件夹下自动创建两个json文件，分别存放用户信息和博文信息，初始写入数据在`writeJson.js`中定义。
