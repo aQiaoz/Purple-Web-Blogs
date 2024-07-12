@@ -9,6 +9,10 @@
 
 工程全部由中国传媒大学21计科何琪皓完成。
 
+已经开源在https://github.com/aQiaoz/Purple-Web-Blogs
+
+演示视频在https://www.bilibili.com/video/BV14Ea4etENW/?share_source=copy_web&vd_source=984965b78ec333f7cdf01cc20f43c3a5
+
 ## 主要页面展示
 > 登录页
 
